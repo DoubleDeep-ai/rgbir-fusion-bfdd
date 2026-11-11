@@ -11,7 +11,7 @@
 - 재현율과 클래스별 성능도 같이 봤다. 논문에는 재현율이 없었다.
 - 박스 면적이 실제 손상 면적보다 얼마나 큰지도 따로 계산했다.
 
-실행: 런타임을 T4 GPU로 바꾸고 전체 실행. 데이터(약 553 MB)는 Mendeley에서 바로 받아 오고, 결과는 Drive의 bfdd_rgbir/에 저장된다.
+실행: 런타임을 T4 GPU로 바꾸고 전체 실행하면 된다. 데이터(약 553 MB)는 Mendeley에서 바로 받아 오고, 결과는 Drive의 bfdd_rgbir/에 저장된다.
 
 데이터: BFDD, Mendeley Data, DOI 10.17632/9ych7czvyg.1 (CC BY 4.0)
 
@@ -105,11 +105,11 @@ RGB+IR이 RGB보다 좋다고 해도, 모델이 IR을 실제로 보고 있는지
 
 ## 실행 방법
 
-Colab에서 [노트북](https://colab.research.google.com/github/DoubleDeep-ai/rgbir-fusion-bfdd/blob/main/RGB_IR_YOLOseg_BFDD.ipynb) 열기 → 런타임을 T4 GPU로 → 전체 실행. 데이터는 노트북이 Mendeley에서 자동으로 받는다.
+Colab에서 [노트북](https://colab.research.google.com/github/DoubleDeep-ai/rgbir-fusion-bfdd/blob/main/RGB_IR_YOLOseg_BFDD.ipynb)을 열고 런타임을 T4 GPU로 바꾼 뒤 전체 실행하면 된다. 데이터는 노트북이 Mendeley에서 자동으로 받는다.
 
 ## 출처
 
 - 데이터: BFDD, Mendeley Data, DOI 10.17632/9ych7czvyg.1, CC BY 4.0
 - 참고 논문: H. Kim, H.J. Lim, H. Sohn, J.-G. Jeong, S. Hwang, "Automated detection and classification of coating damage in steel bridge by integrating active thermography and vision system with YOLO", Engineering Structures 368 (2026) 123670
 
-코드 작성에 AI 도구를 보조로 활용했으며, 실험 설계와 결과 해석은 직접 수행했습니다.
+코드 작성에는 AI 도구의 도움을 받았고, 실험 설계와 결과 해석은 직접 했다.
